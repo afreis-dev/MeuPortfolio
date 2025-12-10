@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+    <title>Retrato de Arthur Reis</title>
+    <desc>Placeholder estilizado para a foto de Arthur Reis.</desc>
+    <defs>
+        <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#192233" />
+            <stop offset="50%" stop-color="#1e3048" />
+            <stop offset="100%" stop-color="#13202f" />
+        </linearGradient>
+    </defs>
+    <rect width="1200" height="1200" fill="url(#bg)" />
+    <circle cx="600" cy="520" r="280" fill="#2d3f5c" opacity="0.9" />
+    <rect x="390" y="350" width="420" height="540" rx="120" fill="#3b5372" opacity="0.9" />
+    <text x="600" y="980" fill="#dce7ff" font-family="'Inter', 'Segoe UI', sans-serif" font-size="64" text-anchor="middle">Arthur Reis</text>
+    <text x="600" y="1048" fill="#8fb1ff" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" text-anchor="middle">Foto substituível</text>
+</svg>

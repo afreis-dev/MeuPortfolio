@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+    <title>Roguelike ASCII Procedural</title>
+    <desc>Placeholder para o jogo roguelike em ASCII.</desc>
+    <defs>
+        <linearGradient id="rg" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#0d1626" />
+            <stop offset="50%" stop-color="#161f35" />
+            <stop offset="100%" stop-color="#0e1729" />
+        </linearGradient>
+    </defs>
+    <rect width="1600" height="900" fill="url(#rg)" />
+    <text x="800" y="280" fill="#e4ecff" font-family="'Source Code Pro', 'Inter', monospace" font-size="68" font-weight="700" text-anchor="middle">Roguelike ASCII</text>
+    <text x="800" y="380" fill="#92a6ff" font-family="'Source Code Pro', 'Inter', monospace" font-size="32" text-anchor="middle">Geração procedural • Combate simples</text>
+    <text x="800" y="460" fill="#92a6ff" font-family="'Source Code Pro', 'Inter', monospace" font-size="32" text-anchor="middle">Morte permanente • vibe indie</text>
+    <text x="800" y="560" fill="#586d9b" font-family="'Source Code Pro', 'Inter', monospace" font-size="28" text-anchor="middle">ASCII forever</text>
+</svg>

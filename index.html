@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Reis • Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<header class="topbar" id="inicio">
+    <div class="brand">
+        <span class="logo" aria-hidden="true">AR</span>
+        <div class="title-group">
+            <p class="eyebrow">Portfólio</p>
+            <h1>Arthur Reis</h1>
+        </div>
+    </div>
+    <nav aria-label="Navegação principal" class="main-nav">
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#estudos">Estudos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle" type="button" id="themeToggle" aria-label="Alternar tema">
+                <span class="icon" aria-hidden="true">🌙</span>
+                <span class="label">Tema</span>
+            </button>
+            <div class="social">
+                <a class="social-link" href="https://www.linkedin.com/in/afreis-dev/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                <a class="social-link" href="https://github.com/afreis-dev" target="_blank" rel="noreferrer noopener">GitHub</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="sobre">
+        <div class="hero-text">
+            <p class="eyebrow">Sobre mim</p>
+            <h2>Curioso por tecnologia, lógica, jogos e música.</h2>
+            <p class="lede">Sou Arthur Reis, estudante de Ciência da Computação na CESAR School. Adoro criar experiências digitais simples, funcionais e com uma pitada de experimentação, de sistemas práticos a protótipos malucos hehe.</p>
+            <div class="pill-group">
+                <span class="pill">Desenvolvimento web</span>
+                <span class="pill">Lógica & algoritmos</span>
+                <span class="pill">Jogos indie / OldSchool</span>
+                <span class="pill">Sistemas experimentais</span>
+            </div>
+            <div class="cta-group">
+                <a class="button" href="#projetos">Ver projetos</a>
+                <a class="button ghost" href="#contato">Entrar em contato</a>
+            </div>
+        </div>
+        <div class="hero-portrait" aria-label="Foto de Arthur Reis">
+            <div class="portrait-frame">
+                <img src="assets/img/Arthur.jpg" alt="Foto de Arthur Reis" loading="lazy">
+                <div class="badge">Estudante de Ciência da Computação</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section projects" id="projetos">
+        <div class="section-heading">
+            <p class="eyebrow">Projetos</p>
+            <h3>Três criações que carregam minha assinatura</h3>
+            <p class="section-subtitle">Cada projeto explora uma combinação de lógica, estética e cuidado com a experiência.</p>
+        </div>
+        <div class="project-grid">
+            <article class="project-card" id="organiza-festa">
+                <div class="project-media">
+                    <img src="assets/img/Projeto-Organiza-Festa.jpg" alt="Organiza Festa - dashboard de eventos">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <p class="eyebrow">Python • CSV • CRUD</p>
+                        <h4>Organiza Festa</h4>
+                    </div>
+                    <p>Sistema em Python com CRUD para eventos, tarefas e convidados, salvando tudo em CSV. Aprendi modularização, lógica e Git.</p>
+                    <div class="tag-row">
+                        <span class="tag">Backend simples</span>
+                        <span class="tag">Persistência leve</span>
+                        <span class="tag">Git workflow</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" id="farmaco">
+                <div class="project-media">
+                    <img src="assets/img/Projeto-FarmaCO.jpg" alt="FarmaCO - dispenser automatico de medicamentos">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <p class="eyebrow">Hardware • Saúde</p>
+                        <h4>FarmaCO</h4>
+                    </div>
+                    <p>Dispenser automático de medicamentos com teclado matricial e display, construído como protótipo físico para otimizar rotinas de descarte.</p>
+                    <div class="tag-row">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">Interface tátil</span>
+                        <span class="tag">UX físico</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" id="roguelike">
+                <div class="project-media">
+                    <img src="assets/img/Projeto-roguelike.jpg" alt="Roguelike ASCII - jogo de terminal procedural">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <p class="eyebrow">ASCII • Procedural</p>
+                        <h4>Roguelike ASCII</h4>
+                        </div>
+                        <p>Jogo de terminal com geração de mapas, combate simples e morte permanente. Estética ASCII.</p>
+                        <div class="tag-row">
+                            <span class="tag">Geração de mapas</span>
+                            <span class="tag">Permadeath</span>
+                            <span class="tag">Estética OldSchool</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section alt" id="estudos">
+            <div class="section-heading">
+                <p class="eyebrow">Estudos & inspiração</p>
+                <h3>Fontes que alimentam minha criatividade</h3>
+                <p class="section-subtitle">Documentação, desafios e referências que me acompanham no dia a dia.</p>
+            </div>
+            <div class="study-grid">
+                <article class="card stack">
+                    <h4>Links de estudo</h4>
+                    <ul class="link-list">
+                        <li><a href="https://roadmap.sh/" target="_blank" rel="noreferrer noopener">Developer Roadmaps</a></li>
+                        <li><a href="https://docs.python.org/3/" target="_blank" rel="noreferrer noopener">Python Docs</a></li>
+                        <li><a href="https://www.beecrowd.com.br/" target="_blank" rel="noreferrer noopener">beecrowd</a></li>
+                        <li><a href="https://github.com/" target="_blank" rel="noreferrer noopener">GitHub</a></li>
+                    </ul>
+                </article>
+                <article class="card inspiration">
+                    <h4>Inspiração</h4>
+                    <p>Meu ponto de partida são jogos no geral, livros e vídeos sobre tecnologia, experimentos e tecnologia sendo usada de forma curiosa.</p>
+                    <div class="pill-group inline">
+                        <span class="pill">Jogos de gerenciamento/estratégia</span>
+                        <span class="pill">Protótipos rápidos</span>
+                        <span class="pill">Música</span>
+                        <span class="pill">Livros & Histórias</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contato">
+            <div class="section-heading">
+                <p class="eyebrow">Contato</p>
+                <h3>Vamos falar de ideias?</h3>
+                <p class="section-subtitle">Envie um e-mail direto do site ou conecte comigo nas redes.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h4>Fale comigo</h4>
+                    <form id="contactForm" class="contact-form">
+                        <label for="name">Nome</label>
+                        <input id="name" name="name" type="text" placeholder="Seu nome" required>
+                        <label for="subject">Assunto</label>
+                        <input id="subject" name="subject" type="text" placeholder="Por onde começamos?" required>
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Conte sua ideia ou dúvida" required></textarea>
+                        <button type="submit" class="button full">Enviar para arthurfreisp@gmail.com</button>
+                    </form>
+                </div>
+                <div class="contact-card alt">
+                    <h4>Redes</h4>
+                    <p>Prefere social? Segue meus links rápidos.</p>
+                    <div class="link-stack">
+                        <a class="inline-link" href="https://www.linkedin.com/in/afreis-dev/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+                        <a class="inline-link" href="https://github.com/afreis-dev" target="_blank" rel="noreferrer noopener">GitHub</a>
+                        <a class="inline-link" href="mailto:arthurfreisp@gmail.com">arthurfreisp@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Construído com HTML, CSS e JavaScript. © <span id="currentYear"></span> Arthur Reis.</p>
+    </footer>
+</body>
+</html>

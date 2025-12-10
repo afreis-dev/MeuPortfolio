@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+    <title>FarmaCO</title>
+    <desc>Placeholder para o projeto FarmaCO.</desc>
+    <defs>
+        <linearGradient id="fc" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#13354b" />
+            <stop offset="50%" stop-color="#1b4961" />
+            <stop offset="100%" stop-color="#153445" />
+        </linearGradient>
+    </defs>
+    <rect width="1600" height="900" fill="url(#fc)" />
+    <rect x="360" y="180" width="880" height="540" rx="40" fill="#1d566e" stroke="#ffd166" stroke-width="8" />
+    <text x="800" y="320" fill="#e9f6ff" font-family="'Inter', 'Segoe UI', sans-serif" font-size="72" font-weight="600" text-anchor="middle">FarmaCO</text>
+    <text x="800" y="420" fill="#f4d35e" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" text-anchor="middle">Dispenser automático prototipado</text>
+    <text x="800" y="500" fill="#f4d35e" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" text-anchor="middle">Arduino • Teclado matricial • LCD</text>
+</svg>
